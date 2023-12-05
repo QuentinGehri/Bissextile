@@ -13,7 +13,7 @@ class TestBissextile(unittest.TestCase):
     def creer_liste_pas_bissextile(self):
         liste = []
         for i in range(1901,3000):
-            if (Bissextile().est_bissextile(i) == False) :
+            if Bissextile().est_bissextile(i) == False:
                 liste.append(i)
         return liste
 
